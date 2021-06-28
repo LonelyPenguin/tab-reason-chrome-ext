@@ -1,0 +1,29 @@
+{
+    "name": "New Tab Reasons",
+    "description": "Jot down a reason for opening a new tab.",
+    "version": "0.1",
+    "manifest_version": 3,
+    
+    "action": {
+        "default_popup": "popup.html"
+    },
+    
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+F",
+                "mac": "MacCtrl+Shift+F"
+          },
+        "description": "Opens default popup"
+        }
+      },
+    
+    
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "permissions": [
+        "storage", "activeTab", "tabs", "scripting"
+    ]
+}

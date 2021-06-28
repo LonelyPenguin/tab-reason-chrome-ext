@@ -1,0 +1,4 @@
+put most recent tab opened id code in background.js
+trigger popup with keyboard shortcut
+in popup.js, get most recent tab id, use it as key in chrome.storage with popup input as value
+in background.js, listen for when a new tab is switched to active, then change the popup tooltip to the value of the current tab id
