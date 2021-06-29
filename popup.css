@@ -1,0 +1,13 @@
+form {
+    height: 100px;
+    width: 180px;
+    outline: black solid 2px;
+    outline-offset: 5px;
+    margin: 10px;
+    border: none;
+}
+
+form.current {
+    box-shadow: 0 0 0 2px white,
+                0 0 0 4px black;
+}
