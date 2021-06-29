@@ -5,14 +5,15 @@
     "manifest_version": 3,
     
     "action": {
-        "default_popup": "popup.html"
+        "default_popup": "popup.html",
+        "default_title": "Hello once more"
     },
     
     "commands": {
         "_execute_action": {
             "suggested_key": {
-                "default": "Ctrl+Shift+F",
-                "mac": "MacCtrl+Shift+F"
+                "default": "Ctrl+E",
+                "mac": "Command+E"
           },
         "description": "Opens default popup"
         }
@@ -24,6 +25,6 @@
     },
 
     "permissions": [
-        "storage", "activeTab", "tabs", "scripting"
+        "storage", "activeTab", "tabs", "scripting", "commands"
     ]
 }
